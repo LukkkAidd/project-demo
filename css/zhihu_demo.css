@@ -1,0 +1,127 @@
+    body{
+        background: #f8f8ff;
+        margin:0;
+        padding:0;
+    }
+    .main,.footer{
+        text-align:center;
+    }
+    .main{
+        margin:80px 100px 100px 100px;
+    }
+    .main .title h1{
+        font-size:70px;
+        color:#00CCFF;
+        font-family:"Microsoft YaHei",serif;
+    }
+    .main .title h2{
+        color:#676767;
+        font-size: 18px;
+        margin-top:-25px ;
+        font-family: "黑体", sans-serif;
+    }
+    .main .sign-up{
+        font-size: 18px;
+        font-family:"Microsoft YaHei",serif;
+        margin-top:30px;
+    }
+    .main .sign-up a{
+        text-decoration: none;
+        color:blue;
+    }
+    .main .sign-up  .sign_up{
+        margin-right:40px;
+    }
+    .main .sign-up-text{
+        width: 300px;
+        border:1px solid #B3AFAC;
+        margin:0 auto;
+        margin-top: 20px;
+    }
+    .main .sign-up-text input{
+        display:inline-block;
+        border:1px solid #e2e2e2;
+        height: 40px;
+        width: 288px;
+        padding-left:10px;
+        font-size: 15px;
+        font-family: "黑体", sans-serif;
+    }
+    .main .sign-up-text input::-webkit-input-placeholder{
+        color:#e2e2e2;/*兼容chrome safari*/
+    }
+    .main .sign-up-text input:-moz-placeholder{
+        color:#e2e2e2;/*兼容 Mozilla Firefox 4 to Firefox 18*/
+    }
+    .main .sign-up-text input::-moz-placeholder{
+        color:#e2e2e2;/*兼容 Mozilla Firefox 19+ */
+    }
+    .main .sign-up-text input:-ms-input-placeholder{
+        color:#e2e2e2;/*兼容ie*/
+    }
+    /*修改placeholder的字体颜色*/
+    .main .sign-up-submit{
+        width: 300px;
+        margin:0 auto;
+        margin-top:20px;
+    }
+    .main .sign-up-submit .submit-style{
+        height:50px;
+        width:300px;
+        background: #2aabd2;
+        color:#fff;
+        font-size:21px;
+        border-radius:2px;
+        line-height:50px;
+    }
+    .main .sign-up-submit .submit-style:hover{
+        background:#00CCFF;
+        -webkit-transition:background-color 0.5s ease-in-out;
+        -moz-transition:background-color 0.5s ease-in-out;
+        transition:background-color 0.5s ease-in-out;
+    }
+    .main .sign-up-submit .sign_up_submit{
+        text-decoration: none;
+        color:#fff;
+    }
+    .main .sign-up-submit p{
+        font-size:13px;
+        color:#9d9d9d;
+        margin-top:20px;
+    }
+    .main .sign-up-submit .protocol{
+        text-decoration: none;
+        color:#00b3ee;
+    }
+    .main .download-app{
+        width:300px;
+        border:1px solid #00CCFF;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius:5px;
+        height:40px;
+    }
+    .main .download-app p{
+        margin-top:10px;
+    }
+    .main .download-app a{
+        text-decoration: none;
+        color:#00CCFF;
+        font-family: "Microsoft YaHei",serif;
+        font-size:14px;
+    }
+    .footer{
+        margin-top: -30px;
+        margin-bottom: 100px;
+    }
+    .footer li{
+        list-style-type:none;
+        display:inline-block;
+        font-size:13px;
+        color:#add8e6;
+    }
+    .footer li a{
+        text-decoration: none;
+        font-size:13px;
+        color:#add8e6;
+    }
